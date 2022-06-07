@@ -1,5 +1,5 @@
-import type { ValidatedEventAPIGatewayProxyEvent } from '@common/api-gateway';
-import { formatJSONResponse } from '@common/api-gateway';
+import type { ValidatedEventAPIGatewayProxyEvent } from '@common/apiGateway';
+import { formatJSONResponse } from '@common/apiGateway';
 import { middyfy } from '@common/lambda';
 
 import schema from './schema';
